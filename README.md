@@ -8,4 +8,5 @@
 - `tmux attach -t SessionName`
 - `tmux detach`
 - `tmux ls`
+- `C-a s` Display sessions while tmux is running
 
