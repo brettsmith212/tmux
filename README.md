@@ -4,8 +4,8 @@
 2. `brew install tmux`
 
 ## Commands
-`tmux new -s SessionName`
-`tmux attach -t SessionName`
-`tmux detach`
-`tmux ls`
+- `tmux new -s SessionName`
+- `tmux attach -t SessionName`
+- `tmux detach`
+- `tmux ls`
 
