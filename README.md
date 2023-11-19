@@ -2,6 +2,8 @@
 
 1. clone project to .config/
 2. `brew install tmux`
+3. Easier if you `cp ~/.config/tmux/.tmux.conf to ~/`
+
 
 ## Commands
 - `tmux new -s SessionName`
