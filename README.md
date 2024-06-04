@@ -6,6 +6,14 @@
 4. Run `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
 5. Nvim ~/.tmux.conf and run `Ctrl-a I` to install plugins
 
+## Tmuxifier
+1. Run `git clone https://github.com/jimeh/tmuxifier.git ~/.tmuxifier`
+2. Add `export PATH="$HOME/.tmuxifier/bin:$PATH"` to .bashrc or .zshrc
+3. Add `eval "$(tmuxifier init -)"` to .bashrc or .zshrc
+
+- Edit sessions: `tmuxifier edit-session <session-name>`
+- Run sessions: `tmuxifier load-session <session-name>`
+
 
 ## Commands
 - `tmux new -s SessionName`
